@@ -1,0 +1,41 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
+pytest-watch = "*"
+coverage = "*"
+factory-boy = "*"
+vcrpy = "*"
+pytest-spec = "*"
+unittest2 = "*"
+pytest-testmon = "*"
+
+[packages]
+django-filter = "*"
+requests = "*"
+django-modeltranslation = "*"
+djangorestframework = "*"
+markdown = "*"
+djangorestframework-simplejwt = "*"
+pillow = "*"
+psycopg2-binary = {version = "*",sys_platform = "== 'darwin'"}
+psycopg2 = {version = "*",sys_platform = "== 'linux'"}
+dj-database-url = "*"
+django-extensions = "*"
+pandas = "*"
+django-cors-headers = "*"
+beautifulsoup4 = "~=4.7.1"
+lxml = "*"
+requests-cache = "*"
+django-polymorphic = "*"
+datetimerange = "*"
+vcrpy = "*"
+backports-datetime-fromisoformat = '*'
+
+[requires]
+python_version = "3.7"

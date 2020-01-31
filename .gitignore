@@ -1,0 +1,27 @@
+# IDE
+.vscode
+.idea
+
+# Image uploaded
+media/*
+
+# Environment
+.env
+
+# Coverage
+htmlcov/*
+.coverage
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Testmon
+.testmondata
+.tmontmp/*
+
+# Testing misc
+.pytest_cache/*
+
+# Sqlite
+api_cache.sqlite
